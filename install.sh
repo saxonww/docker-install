@@ -18,6 +18,7 @@ set -e
 # the script was uploaded (Should only be modified by upload job):
 SCRIPT_COMMIT_SHA="${LOAD_SCRIPT_COMMIT_SHA}"
 
+export VERSION="18.09.8"
 
 # The channel to install from:
 #   * nightly
